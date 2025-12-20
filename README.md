@@ -1,8 +1,8 @@
 # 🔐 Password Audit Tool
 
-A professional-grade password strength checker and generator with advanced fuzzy matching, entropy analysis, and pattern detection. Built with Streamlit for interactive analysis and secure password generation. 
+An intensive password strength checker and generator with advanced fuzzy matching, entropy analysis, and pattern detection. Built with Streamlit for interactive analysis and secure password generation. 
 
-## 🚀 Try It Online
+## 🚀 Try It Online (click the link!)
 
 https://passwordaudittool-ct9ulveusu8hqqttlnqq6h.streamlit.app/
 
