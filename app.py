@@ -1,7 +1,3 @@
-"""
-Reference Streamlit Application for Password Audit Tool
-Professional-grade UI for password checking and generation with Streamlit
-"""
 
 import streamlit as st
 import pandas as pd
