@@ -1,6 +1,10 @@
 # 🔐 Password Audit Tool
 
-An intensive password strength checker and generator with advanced fuzzy matching and a clean Streamlit UI. 
+A professional-grade password strength checker and generator with advanced fuzzy matching, entropy analysis, and pattern detection. Built with Streamlit for interactive analysis and secure password generation. 
+
+## 🚀 Try It Online
+
+
 
 ## Features
 
@@ -175,28 +179,23 @@ checker._check_dictionary("passwerd")       # 38/100 (WEAK - caught!)
 checker._check_dictionary("Tr0pic@l!")      # 100/100 (PASS)
 ```
 
-**See [FUZZY_MATCHING_GUIDE.md](FUZZY_MATCHING_GUIDE.md) for detailed technical documentation.**
-
 ## Project Structure
 
 ```
 password_audit_tool/
-├── app.py                          # Main Streamlit app
-├── demo_fuzzy_matching.py          # Fuzzy matching demonstration
+├── app.py                          # Streamlit web application
 ├── requirements.txt                # Python dependencies
-├── README.md                       # This file
+├── README.md                       # Documentation
 ├── LICENSE                         # MIT License
-├── FUZZY_MATCHING_GUIDE.md        # Technical guide for fuzzy matching
 ├── data/
-│   └── common_passwords.txt        # Common passwords database (10k most common)
+│   └── common_passwords.txt        # 10k most common passwords database
 ├── password_tool/
-│   ├── __init__.py
-│   ├── checker.py                 # Advanced password strength analyzer
-│   ├── generator.py               # Cryptographically secure password generator
-│   └── __pycache__/
+│   ├── checker.py                 # Password strength analysis engine
+│   ├── generator.py               # Cryptographic password generation
+│   └── __init__.py
 ├── tests/
-│   ├── test_checker.py            # Comprehensive test suite for checker
-│   └── test_generator.py          # Comprehensive test suite for generator
+│   ├── test_checker.py            # Checker test suite
+│   └── test_generator.py          # Generator test suite
 └── .gitignore
 ```
 
@@ -214,19 +213,6 @@ With coverage:
 pytest tests/ --cov=password_tool --cov-report=html
 ```
 
-### Demo Fuzzy Matching
-
-See the fuzzy matching in action:
-
-```bash
-python demo_fuzzy_matching.py
-```
-
-This will show:
-- Leet speak normalization examples
-- Fuzzy similarity scores
-- Password scoring with fuzzy matching
-- Before/after comparisons
 
 ## Key Concepts
 
