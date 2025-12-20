@@ -2,7 +2,7 @@
 
 An intensive password strength checker and generator with advanced fuzzy matching, entropy analysis, and pattern detection. Built with Streamlit for interactive analysis and secure password generation. 
 
-## 🚀 Try It Online (click the link!)
+## Try It Online (click the link!)
 
 https://passwordaudittool-ct9ulveusu8hqqttlnqq6h.streamlit.app/
 
@@ -140,7 +140,7 @@ Overall Score =
 
 ## Advanced Features
 
-### 🚀 Fuzzy Matching Dictionary Check
+### Fuzzy Matching Dictionary Check
 
 The password checker now uses **RapidFuzz** for advanced dictionary checking that catches variations most tools miss:
 
@@ -287,7 +287,6 @@ Contributions are welcome! Feel free to:
 - Report bugs
 - Suggest improvements
 - Submit pull requests
-- Improve documentation
 
 ## Support
 
